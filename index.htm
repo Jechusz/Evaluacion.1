@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="#Ofertas">Ofertas</a></li>
+            <li><a href="#galeria">Imagenes</a></li>
+            <li><a href="#Contacto">Contactanos</a></li>
+            <li><a href="#Info">Info Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <header class="hero">
+        <div class="hero-texto">
+            <h1>KFC</h1>
+            <h2>"KFC (Kentucky Fried Chicken) "</h2>
+            <h3>KFC está especializada en el pollo frito, piezas de pollo crujientes que se preparan mediante un proceso de fritura a presión. 
+                Normalmente se comercializan varias unidades en cajas o cubos, 
+                y además del pollo tradicional original existen otras variantes como pollo extra crujiente y asado a la parrilla.</h3>
+        </div>
+    </header>
+    <hr>
+    <section class="contenedor" id="Ofertas">
+        <h2 class="titulo">Ofertas</h2>
+        <div class="contenedor-cards">
+            <article class="card">
+                <h3>Oferta 1</h3>>
+                <a class="boton" href="https://www.kentucky.cl/products/wow-box-xl-clasico-3120" target="_blank">Comprar</a>
+                <h2>$ 5.200</h2>
+            </article>
+            <article class="card">
+                <h3>Oferta 2</h3>
+                <a class="boton" href="https://www.kentucky.cl/products/wow-box-xl-sundae-5709" target="_blank">Comprar</a>
+                <h2>$ 5.900</h2>
+            </article>
+
+            <article class="card">
+                <h3>Oferta 3</h3>
+                <a class="boton" href="https://www.kentucky.cl/products/wow-bucket-2611" target="_blank">Comprar</a>
+                <h2>$ 9.900</h2>
+            </article>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeria">
+        <div class="contenedor">
+            <h2 class="titulo">Imagenes</h2>
+            <div class="galeria-contenedor">
+                <img src="img/promo1.jpg" alt="">
+                <img src="img/promo2.jpg" alt="">
+                <img src="img/promo3.jpg" alt="">
+                <img src="img/promo4.jpg" alt="">
+                <img src="img/promo5.webp" alt="">
+                <img src="img/promo6.webp" alt="">
+                <img src="img/promo7.jpg" alt="">
+                <img src="img/promo8.jpeg" alt="">
+                <img src="img/promo9.jpeg" alt="">
+                <img src="img/promo10.jpg" alt="">
+                <img src="img/promo11.jpg" alt="">
+                <img src="img/promo12.jpg" alt="">
+              
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="formulario">
+        <h2>Formulario de Pedidos</h2>
+            <form action="enviar_pedido.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+
+        <label for="productos">Productos:</label>
+        <textarea id="productos" name="productos" placeholder="Escribe aquí los productos que deseas llevar" required></textarea>
+
+        <button type="submit">Enviar Pedido</button>
+        </form>
+      </div>
+
+      <hr>
+      <footer class="fondo-footer" id="Info">
+          <p class="footer-text"><i class=""></i>Telefono: <i>+56913313313</i></p>
+          <p class="footer-text"><i class=""></i>Email: <i>support@riotgames.com</i></p>
+          <p class="footer-text"><i class=""></i>Direccion: <i>Andromeda,Cumulonimbus</i></p>
+          <p class="footer-text"><i class=""></i>Asistencia: <i>https://www.kentucky.cl/terminos-y-condiciones?gad_source=1&gclid=EAIaIQobChMIyLzdhf7OhQMVUGVIAB0QdglpEAAYASAAEgLa_PD_BwE</i></p>
+          <p class="footer-text"><i class=""></i>Link de interes: <i>https://www.kentucky.cl/menu?utm_source=googlesemcl&utm_medium=googlekfcaon&utm_campaign=sembrand&gad_source=1&gclid=EAIaIQobChMIvdLoo_3OhQMVjVlIAB0WZApcEAAYASAAEgKm_PD_BwE</i></p>
+          
+      </footer>
+
+</body>
+</html>
+<!--git config --global user.name "Tu Nombre"
+git config --global user.email "tu_correo@example.com"
